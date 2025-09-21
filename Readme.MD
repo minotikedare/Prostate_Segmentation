@@ -30,7 +30,7 @@ The objective is to extract patient MRI datasets, apply prostate gland masks, en
 
 ## Methodology 
 1. **Data Extraction**:
-- Patient MRI data is provided as ZIP files listed in the `zip_files` variable.  
+- Patient MRI data is provided as ZIP files listed in the `zip_files`.  
 - All ZIP files are extracted into a `data` folder using Python’s `zipfile` module.  
 - Extracted files include T2-weighted MRI images (`_t2w.nii.gz`) and prostate masks (`_gland.nii.gz`). 
 
@@ -63,3 +63,18 @@ The objective is to extract patient MRI datasets, apply prostate gland masks, en
 
 ---
  
+## Prostate Segmentation Results
+
+### Patient 10005
+<img src="https://github.com/minotikedare/Prostate_Segmentation/blob/main/results/10005_all_in_one.png?raw=true" alt="Patient 10005 Segmentation" width="600"/>
+
+### Patient 10040
+<img src="https://github.com/minotikedare/Prostate_Segmentation/blob/main/results/10040_all_in_one.png?raw=true" alt="Patient 10040 Segmentation" width="600"/>
+
+### Patient 10043
+<img src="https://github.com/minotikedare/Prostate_Segmentation/blob/main/results/10043_all_in_one.png?raw=true" alt="Patient 10043 Segmentation" width="600"/>
+
+### Patient 10048
+<img src="https://github.com/minotikedare/Prostate_Segmentation/blob/main/results/10048_all_in_one.png?raw=true" alt="Patient 10048 Segmentation" width="600"/>
+
+---
