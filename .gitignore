@@ -25,11 +25,3 @@ ENV/
 downloads/
 Downloads/
 
-# Results and output images
-/results/
-*.png
-*.jpg
-*.jpeg
-
-# Logs
-*.log
