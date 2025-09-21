@@ -1,0 +1,35 @@
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.env
+.venv
+venv/
+ENV/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Data files
+*.zip
+*.nii
+*.nii.gz
+/data/
+downloads/
+Downloads/
+
+# Results and output images
+/results/
+*.png
+*.jpg
+*.jpeg
+
+# Logs
+*.log
